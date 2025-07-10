@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* shared  */
 .cmn-btn{
     color: white;
     background-color: blue;
     border: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 body a{
     text-decoration: none;
@@ -32,7 +40,7 @@ nav{
 } */
 .nav-tittle{
     font-size: large;
-    font-weight: bolder;
+    font-weight:bolder;
     font-size: 34px;
     color: blue;
 }
@@ -56,8 +64,52 @@ nav{
     text-align: center;
 }
 .btn-banner{
-    background-color: blue;
     padding: 12px 36px;
     font-weight: bold;
     border-radius: 10px;
+}
+/* action section */
+.action{
+        display: flex;
+        background-color: #f5f8ff;
+        padding: 40px;
+        /* border-radius: 12px; */
+        align-items: center;
+        width: 1140px;
+        margin: 0 160px 116px 141px;
+        gap: 40px;
+        justify-content: space-between; 
+}
+.action-left{
+    margin-right: 220px;
+}
+
+.action-left h3{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+.action p{
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #252432;
+    font-weight:lighter;
+}
+.action-btn{
+    display: inline-block;
+    padding: 12px 36px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.actionimg{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.actionimg img{
+    width: 403px;
+    height: 328px;
+    border-radius: 20px;
+    display: block;
+    object-fit: cover;
 }
