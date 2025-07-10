@@ -15,8 +15,16 @@
     border: none;
     font-weight: bold;
     font-size: 16px;
+    transition:all 0.3s ease;
+    cursor: pointer;
 }
-body a{
+.cmn-btn:hover{
+    background-color: yellow;
+}
+.cmn-btn:hover a{
+    color:black;
+}
+.cmn-btn a{
     text-decoration: none;
     color: white;
 }
