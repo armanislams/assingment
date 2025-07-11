@@ -83,7 +83,6 @@ nav{
         display: flex;
         background-color: #f5f8ff;
         padding: 40px;
-        /* border-radius: 12px; */
         align-items: center;
         width: 1140px;
         margin: 0 160px 116px 141px;
@@ -125,13 +124,11 @@ nav{
 }
 /* produtive section */
 .user-section{
-    /* display: flex;
-    flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #4d47ff3d;
-    margin: 116px 159px 137px 141px;
+    margin: 116px 159px 137px 85px;
     width: 945px;
     height: 306px;
     padding: 50px 142px;
@@ -159,7 +156,6 @@ nav{
     width: 1140px;
     height: 340px;
     margin-bottom: 60%;
-    background-color: #F2EDED;
     align-items: center;
     justify-content: center;
     margin: 137px 149px 137px 151px;
@@ -186,6 +182,7 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     background-color: white;
+    padding-bottom: 20px;
 }
 .stars{
     margin-bottom: 15px;
@@ -197,12 +194,14 @@ nav{
 .card-tittle{
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .card-quote{
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
 }
 .reviewer-info{
     display: flex;
@@ -248,12 +247,13 @@ nav{
     margin-bottom: 25px;
 }
 .focus-img img{
-    border-radius: 15px;
+    border-radius: 50px;
     width: 840px;
     height: 365px;
     justify-content: center;
     margin-top: 25px;
 }
+
 /* touch section */
 .touch  {
     display: flex;
