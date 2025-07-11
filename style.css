@@ -42,10 +42,7 @@ nav{
     align-items: center;
     padding: 30px;
 }    
-/* nav a{
-    text-decoration: none;
-    color: white;
-} */
+
 .nav-tittle{
     font-size: large;
     font-weight:bolder;
@@ -120,4 +117,35 @@ nav{
     border-radius: 20px;
     display: block;
     object-fit: cover;
+}
+/* produtive section */
+.user-section{
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4d47ff3d;
+    margin: 116px 159px 137px 141px;
+    width: 945px;
+    height: 306px;
+    padding: 50px 142px;
+    border-radius: 25px;
+}
+.user-tittle{
+    font-size: 38px;
+    font-weight: bold;
+}
+.user-stats{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 90px;
+}
+.stat-tittle{
+    color: blue;
+    font-weight: bolder;
+    font-size: 80px;
 }
