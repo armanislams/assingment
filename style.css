@@ -254,3 +254,39 @@ nav{
     justify-content: center;
     margin-top: 25px;
 }
+/* touch section */
+.touch  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.touch-tittle{
+    text-align: left;
+    min-width: 300px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 50px;
+    padding-right: 120px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.form-sec{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+    box-sizing: border-box;
+
+
+}
