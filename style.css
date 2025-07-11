@@ -17,6 +17,8 @@
     font-size: 16px;
     transition:all 0.3s ease;
     cursor: pointer;
+    border-radius: 15px;
+    padding: 12px 36px;
 }
 .cmn-btn:hover{
     background-color: yellow;
@@ -27,6 +29,9 @@
 .cmn-btn a{
     text-decoration: none;
     color: white;
+}
+body{
+    background-color:#F2EDED;
 }
 /* header section */
 .header{
@@ -218,4 +223,34 @@ nav{
 }
 .reviewer-name{
     font-weight: bold;
+}
+/* focus section */
+.focus{
+    width: 1140px;
+    height: 697px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 149px 108px 151px;
+    background-color: white;
+    padding-top: 75px;
+}
+.focus-tittle{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.focus-subtittle{
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+.focus-btn{
+    margin-bottom: 25px;
+}
+.focus-img img{
+    border-radius: 15px;
+    width: 840px;
+    height: 365px;
+    justify-content: center;
+    margin-top: 25px;
 }
