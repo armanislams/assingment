@@ -31,7 +31,7 @@
     color: white;
 }
 body{
-    background-color:#F2EDED;
+    background-color:#f5f8ff;
 }
 /* header section */
 .header{
@@ -259,14 +259,17 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .touch-tittle{
     text-align: left;
     min-width: 300px;
+    max-width: 530px;
     font-weight: bold;
     margin: 0;
     font-size: 50px;
     padding-right: 120px;
+    padding-left: 100px;
 }
 .contact-form{
     display: flex;
@@ -289,4 +292,45 @@ input[type="text"], input[type="email"], textarea{
     box-sizing: border-box;
 
 
+}
+/* footer section */
+footer{
+    background-color: white;
+    padding: 104px 450px 104px 450px;
+    
+}
+.footer{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.footer-tittle{
+    font-weight:bolder;
+    color: blue;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.footer-sub{
+    font-weight:100;
+}
+.footer-menu{
+    justify-content: space-between;
+}
+.footer-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px;
+    font-weight: bold;
 }
